@@ -18,9 +18,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(Broom) {
-  return [...kittens, "Broom"]
+  return kittens.concat(Broom);
 }
 
-function prependKitten(Arnold) {
-  return kittens.concat(Arnold);
-}
+

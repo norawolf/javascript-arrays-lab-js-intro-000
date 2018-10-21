@@ -22,5 +22,5 @@ function appendKitten(Broom) {
 }
 
 function prependKitten(Arnold) {
-  return Arnold.concat(kittens);
+  return ['Arnold', ...kittens]
 }
